@@ -92,9 +92,9 @@ body {
   color: var(--title-color-light-theme);
 }
 
-.title__dark-theme {
+/* .title__dark-theme {
   color: var(--title-color-dark-theme);
-}
+} */
 /* ========== END COMPONENTS ========= */
 
 /* ========== HEADER ========= */
@@ -131,7 +131,6 @@ body {
 /* ========== END HERO ========= */
 
 /* ========== ABOUT ========= */
-
 .about__text {
   font-weight: 400;
   font-size: 14px;
@@ -139,5 +138,86 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color-light-theme);
 }
-
 /* ========== END ABOUT ========= */
+
+/* ========== SERVICES ========== */
+.services__list-item-name,
+.services__list-item-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--text-color-dark-theme);
+}
+/* ========== END SERVICES ========== */
+
+/* ========== ADVANTAGES ========== */
+.advantages__list-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-color-light-theme);
+}
+
+.advantages__list-description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  text-align: center;
+  color: var(--title-color-light-theme);
+}
+/* ========== END ADVANTAGES ========== */
+
+/* ========== MASTERS ========== */
+.masters__list-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.389;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-color-light-theme);
+}
+
+.masters__list-item-position {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* ========== END MASTERS ========== */
+
+/* ========== GALLERY ========== */
+/* ========== END GALLERY ========== */
+
+/* ========== CONTACT ========== */
+.contact-list__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+  color: var(--text-color-dark-theme);
+}
+
+.contact-info__date {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color-dark-theme);
+}
+/* ========== END CONTACT ========== */
+
+/* ========== FOOTER ========== */
+.copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: var(--text-color-dark-theme);
+}
+/* ========== END FOOTER ========== */
